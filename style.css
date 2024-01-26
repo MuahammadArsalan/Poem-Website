@@ -333,7 +333,7 @@ margin: auto;
 width: 255px;
 font-weight: bold;
 font-size: large;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+/* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 color: rgb(32, 111, 202);
 position: relative;
 top: 200px;
@@ -405,7 +405,7 @@ margin: auto;
 width: 255px;
 font-weight: bold;
 font-size: large;
-font-family: monospace;
+/* font-family: monospace; */
 color: rgb(32, 111, 202);
 position: relative;
 top: 200px;
@@ -434,5 +434,37 @@ color: #f87911;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 180px;
 }
+#poem1::first-letter{
+    font-family: 'Poppins', sans-serif;
+}
+#poem2::first-letter{
+    font-family: 'Abhaya Libre', serif;
+}
+#poem3::first-letter{
+    font-family: 'Advent Pro', sans-serif;
+}
+#poem4::first-letter{
+    font-family: 'Aclonica', sans-serif;
+}
+#poem5::first-letter{
+    font-family: 'Angkor', serif;
 
+}
+#poem1-para{
+    font-family: 'Aguafina Script', cursive
+}
+#poem2-para{
+    font-family: 'Akaya Telivigala', system-ui
+}
+#poem3-para{
+    font-family: 'Akronim', system-ui;
 
+}
+#poem4-para{
+    font-family: 'Aladin', system-ui;
+
+}
+#poem5-para{
+    font-family: 'Alex Brush', cursive;
+
+}
